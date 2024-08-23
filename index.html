@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Article preview component</title>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="container container_content_center">
+        <section class="section">
+          <article class="article-card">
+            <img
+              class="article-card__thumb"
+              src="./images/drawers.jpg"
+              alt="Green drawers"
+            />
+            <h1 class="article-card__title">
+              Shift the overall look and feel by adding these wonderful touches
+              to furniture in your home
+            </h1>
+            <p class="article-card__description">
+              Ever been in a room and felt like something was missing? Perhaps
+              it felt slightly bare and uninviting. I’ve got some simple tips to
+              help you make any room feel complete.
+            </p>
+            <footer class="attribution article-card__attribution">
+              <img
+                class="avatar attribution__avatar"
+                src="./images/avatar-michelle.jpg"
+                alt=""
+              />
+              <div class="attribution__name">Michelle Appleton</div>
+              <time datetime="2020-06-28" class="attribution__date"
+                >28 Jun 2020</time
+              >
+              <div class="attribution__share">
+                <div class="popover">
+                  <button class="popover__toggler">
+                    <img
+                      class="icon icon_size_sm"
+                      src="./images/icon-share.svg"
+                      alt="Share"
+                    />
+                  </button>
+                  <div
+                    class="popover__body article-card__popover"
+                    data-hidden="true"
+                  >
+                    <strong class="popover__title">Share</strong>
+                    <div class="popover__content">
+                      <a href="#"
+                        ><img
+                          class="icon icon_size_md"
+                          src="./images/icon-facebook.svg"
+                          alt="Facebook"
+                      /></a>
+                      <a href="#"
+                        ><img
+                          class="icon icon_size_md"
+                          src="./images/icon-twitter.svg"
+                          alt="Twitter"
+                      /></a>
+                      <a href="#"
+                        ><img
+                          class="icon icon_size_md"
+                          src="./images/icon-pinterest.svg"
+                          alt="Pinterest"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </article>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
